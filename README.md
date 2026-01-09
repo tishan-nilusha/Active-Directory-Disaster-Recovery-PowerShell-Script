@@ -35,3 +35,43 @@ Clean DNS records
 Configure Time Service (W32Time)
 
 Run AD Health Checks automatically
+
+
+🛠️ How to Use
+1️⃣ Clone or Download
+git clone https://github.com/yourusername/AD-Disaster-Recovery.git
+
+
+Or download the ZIP file and extract.
+
+2️⃣ Edit Script
+
+Open AD-Recovery.ps1 and update the dead DC hostname:
+
+$DeadDC = "DC01"
+
+
+Replace DC01 with your actual dead DC name.
+
+3️⃣ Enable Script Execution (One-Time)
+Set-ExecutionPolicy RemoteSigned
+
+
+Press Y and Enter.
+
+4️⃣ Run the Script
+cd AD-Disaster-Recovery
+.\AD-Recovery.ps1
+
+✅ Verification
+
+After the script completes, verify:
+
+netdom query fsmo
+
+Get-ADDomainController -Filter *
+
+
+FSMO roles should now be owned by the new DC
+
+Dead DC should no longer be listed
