@@ -5,8 +5,7 @@
 # 🛡️ Active Directory Disaster Recovery PowerShell Script
 
 [![PowerShell](https://img.shields.io/badge/PowerShell-PS-blue?logo=powershell\&logoColor=white)](https://github.com/yourusername/AD-Disaster-Recovery)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-[![Version](https://img.shields.io/badge/Version-1.0.0-blueviolet)]()
+
 
 ---
 
