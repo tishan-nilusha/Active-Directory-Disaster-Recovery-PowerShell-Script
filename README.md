@@ -44,7 +44,7 @@ Features include:
 
 Clone the repository using:
 
-**git clone [https://github.com/yourusername/AD-Disaster-Recovery.git](https://github.com/yourusername/AD-Disaster-Recovery.git)**
+**git clone [https://github.com/tishan-nilusha/AD-Disaster-Recovery.git](https://github.com/tishan-nilusha/AD-Disaster-Recovery.git)**
 
 Or download the ZIP file and extract it.
 
