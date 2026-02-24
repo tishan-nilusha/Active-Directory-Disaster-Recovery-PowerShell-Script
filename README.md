@@ -43,9 +43,9 @@ Features include:
 <summary>1️⃣ Clone or Download</summary>
 
 Clone the repository using:
-
-**git clone [https://github.com/tishan-nilusha/AD-Disaster-Recovery.git](https://github.com/tishan-nilusha/AD-Disaster-Recovery.git)**
-
+```bash
+git clone https://github.com/tishan-nilusha/Active-Directory-Disaster-Recovery-PowerShell-Script
+```
 Or download the ZIP file and extract it.
 
 </details>
