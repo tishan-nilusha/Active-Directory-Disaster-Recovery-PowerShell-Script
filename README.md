@@ -46,8 +46,6 @@ Clone the repository using:
 ```bash
 git clone https://github.com/tishan-nilusha/Active-Directory-Disaster-Recovery-PowerShell-Script
 ```
-Or download the ZIP file and extract it.
-
 </details>
 
 <details>
