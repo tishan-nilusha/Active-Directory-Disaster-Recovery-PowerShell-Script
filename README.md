@@ -97,13 +97,14 @@ netdom query fsmo
 Get-ADDomainController -Filter *
 ```
 
+* FSMO roles should now be owned by the new DC
+* Dead DC should no longer be listed
+
+  
 ## 👤 Author
 
 **Tishan Nilusha**  
 *Cybersecurity | Networking Enthusiast*  
-
-* FSMO roles should now be owned by the new DC
-* Dead DC should no longer be listed
 
 ---
 
